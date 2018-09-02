@@ -1,6 +1,10 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    {{#vuex}}
+    <h1 class="red">在这里，你可以使用vuex了$store.state.isSuccess</h1>
+    {{/vuex}}
+
     {{#router}}
     <router-view/>
     {{else}}
@@ -22,7 +26,7 @@ export default {
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -30,5 +34,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  h1.red{
+    color: red;
+  }
 }
 </style>

@@ -1,5 +1,5 @@
 # jyz-private-vue-template
-# vue-webpack-boilerplate222333
+# vue-webpack-boilerplate
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
@@ -56,4 +56,8 @@ You can fork this repo to create your own boilerplate, and use it with `vue-cli`
 
 ``` bash
 vue init username/repo my-project
+```
+
+```
+模板加入了vuex和sass的支持
 ```
