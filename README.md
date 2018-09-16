@@ -59,5 +59,12 @@ vue init username/repo my-project
 ```
 
 ```
+2018-09-01
 模板加入了vuex和sass的支持
+```
+```
+2018-09-16
+模板加入了ivew的支持
+模板中映入global.scss全局变量，用来写自己的全局样式，
+并且覆盖iview中默认的样式
 ```

@@ -1,0 +1,7 @@
+$height:10px;
+.my{
+  height: $height;
+  width: 10px;
+  background: url('./assets/logo.png') center center no-repeat;
+  background-size: cover;
+}

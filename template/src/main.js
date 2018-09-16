@@ -13,6 +13,11 @@ import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
   import store from './store'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
   Vue.use(Vuex){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/vuex}}
+{{#iview}}
+  import iView from 'iView'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+  import 'iview/dist/styles/iview.css'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+  Vue.use(iView){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+{{/iview}}
 
 
 

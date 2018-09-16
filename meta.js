@@ -48,6 +48,10 @@ module.exports = {
         "type": "confirm",
         "message": "Install vuex?"
     },
+    "iview":{
+        "type": "confirm",
+        "message": "install iview?"
+    },
     "lint": {
       "type": "confirm",
       "message": "Use ESLint to lint your code?"
